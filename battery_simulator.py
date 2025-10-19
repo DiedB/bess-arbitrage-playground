@@ -110,7 +110,8 @@ def plot_profit_by_period(
         )
         .properties(
             title=default_title,
-            width="container",
+            width=800,
+            height=400,
         )
     )
 
